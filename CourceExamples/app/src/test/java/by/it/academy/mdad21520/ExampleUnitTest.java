@@ -1,4 +1,4 @@
-package by.it.academy.md_ad2_15_20;
+package by.it.academy.mdad21520;
 
 import org.junit.Test;
 
