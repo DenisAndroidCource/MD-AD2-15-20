@@ -24,4 +24,8 @@ public class GitTestClass {
     public void setBranchName(String branchName) {
         this.branchName = branchName;
     }
+
+    public boolean checkRepo(){
+        return true;
+    }
 }
