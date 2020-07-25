@@ -1,3 +1,4 @@
+include ':layoutexample'
 include ':gittestmodule'
 include ':app'
 rootProject.name = "MD-AD2-15-20"

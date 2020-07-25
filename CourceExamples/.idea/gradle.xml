@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/gittestmodule" />
+            <option value="$PROJECT_DIR$/layoutexample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
