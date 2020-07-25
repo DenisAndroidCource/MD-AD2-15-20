@@ -2,11 +2,11 @@ package by.it.academy.gittestmodule;
 
 import java.io.Serializable;
 
-public class GitTestClass implements Serializable {
+public class GitTestClass2 implements Serializable {
     private String repoName;
     private String branchName;
 
-    public GitTestClass(String repoName, String branchName) {
+    public GitTestClass2(String repoName, String branchName) {
         this.repoName = repoName;
         this.branchName = branchName;
     }
