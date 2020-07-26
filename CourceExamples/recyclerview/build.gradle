@@ -6,7 +6,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "by.it.academy.layoutexample"
+        applicationId "by.it.academy.recyclerview"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
