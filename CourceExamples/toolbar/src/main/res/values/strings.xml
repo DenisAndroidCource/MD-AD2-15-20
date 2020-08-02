@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toolbar</string>
+    <string name="itemShareData">Share data</string>
+    <string name="itemShareContact">Share contact</string>
+    <string name="itemShareWith">Share with</string>
+    <string name="openActivity">Open activity</string>
+    <string name="dialogConfirmationTitle">Confirmation info</string>
+    <string name="dialogConfirmationMessage">Are you sure?</string>
+    <string name="dialogConfirmation">Yes</string>
+    <string name="dialogReject">No</string>
+</resources>

@@ -1,3 +1,4 @@
+include ':toolbar'
 include ':recyclerview'
 include ':layoutexample'
 include ':gittestmodule'

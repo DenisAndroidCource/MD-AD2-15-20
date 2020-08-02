@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemShareData"
+        android:title="@string/itemShareData" />
+
+    <item
+        android:id="@+id/itemShareContact"
+        android:title="@string/itemShareContact" />
+
+    <item
+        android:title="@string/itemShareWith">
+
+        <menu android:id="@+id/groupContacts">
+            <item
+                android:id="@+id/itemShareWithAlex"
+                android:title="Alex" />
+
+            <item
+                android:id="@+id/itemShareWithVladimir"
+                android:title="Vladimir" />
+        </menu>
+
+    </item>
+
+</menu>
