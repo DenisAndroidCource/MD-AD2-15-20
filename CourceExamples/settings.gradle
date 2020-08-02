@@ -1,3 +1,4 @@
+include ':storage'
 include ':toolbar'
 include ':recyclerview'
 include ':layoutexample'
