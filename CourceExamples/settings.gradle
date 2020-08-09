@@ -1,3 +1,4 @@
+include ':mistakes'
 include ':storage'
 include ':toolbar'
 include ':recyclerview'
