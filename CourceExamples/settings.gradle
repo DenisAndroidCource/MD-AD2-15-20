@@ -1,3 +1,5 @@
+include ':kotlinappexample'
+include ':kotlinexample'
 include ':mistakes'
 include ':storage'
 include ':toolbar'
