@@ -26,6 +26,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+import by.it.academy.async.observer.JavaObservable;
+
 public class MainActivity extends AppCompatActivity {
 
     private ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(4);
@@ -72,6 +74,14 @@ public class MainActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        JavaObservable.getInstance().subscribe(new JavaObservable.JavaObservableAction() {
+            @Override
+            public void onDataChanged(String data) {
+
+            }
+        });
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
