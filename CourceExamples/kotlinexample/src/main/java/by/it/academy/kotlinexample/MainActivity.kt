@@ -1,5 +1,6 @@
 package by.it.academy.kotlinexample
 
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -79,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         userInfo.name = "NAME"
 //        userInfo.age = 19
         val age = userInfo.age
-        val name = userInfo.name
+
 
         val info = UserInfo(
                 phone = "PHONE",
@@ -89,7 +90,38 @@ class MainActivity : AppCompatActivity() {
         )
 
         info.foo(param2 = "asd", param = "asdasdasd")
+
+        val personName = "NAME"
+        val personAddress = "Address"
+
+//                val name = userInfo.name
+        // this & it
+        val person: Person? = Person().apply {
+            name = personName
+            address = personAddress
+        }
+
+//        with(viewSettings) {
+//            view1.text = text
+//            view2.hint = hint
+//
+//            person?.run { foo(name, address) }
+//        }
+        person?.let {
+            foo(it.name, it.address)
+        }
+        person?.run { foo(name, address) }
+
+        val viewSettings = ViewSettings(
+                color = Color.BLACK,
+                text = "Txt",
+                hint = "Hint"
+        )
+//        person.also {
+//            it.name = personName.plus("asdlkasjdlkjasdkljaklsdja")
+//        }
     }
 
+    fun foo(name: String, address: String) {}
 
 }
