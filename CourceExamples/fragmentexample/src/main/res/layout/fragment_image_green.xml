@@ -12,4 +12,10 @@
         android:src="@drawable/ic_baseline_emoji_emotions_24"
         app:tint="@android:color/holo_green_dark" />
 
+    <fragment
+        android:id="@+id/fragmentContainer"
+        android:name="by.it.academy.fragmentexample.ImageRedFragment"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
 </FrameLayout>
