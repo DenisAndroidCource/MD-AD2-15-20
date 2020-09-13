@@ -1,5 +1,5 @@
 package by.it.academy.fragmentexample;
 
 public interface OnActionController {
-    void foo();
+    void foo(int iconId);
 }

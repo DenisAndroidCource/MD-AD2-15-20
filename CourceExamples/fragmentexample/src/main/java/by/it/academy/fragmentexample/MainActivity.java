@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -48,7 +49,12 @@ public class MainActivity extends AppCompatActivity implements OnActionControlle
     }
 
     @Override
-    public void foo() {
+    public void foo(int iconId) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragment = fragmentManager.findFragmentByTag("TAG2");
+
+
+
         Log.d("MAINACTIVITY", "The method has been called");
     }
 }
