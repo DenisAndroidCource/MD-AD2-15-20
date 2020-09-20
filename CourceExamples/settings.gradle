@@ -1,3 +1,4 @@
+include ':newtworkexample'
 include ':fragmentexample'
 include ':serviceexample'
 include ':broadcastreciverexample'

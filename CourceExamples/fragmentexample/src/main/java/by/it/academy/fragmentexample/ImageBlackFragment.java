@@ -33,7 +33,7 @@ public class ImageBlackFragment extends Fragment {
     public void onResume() {
         super.onResume();
         if (onActionController != null) {
-            onActionController.foo();
+//            onActionController.foo();
         }
     }
 
