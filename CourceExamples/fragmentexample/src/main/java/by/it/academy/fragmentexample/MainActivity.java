@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements OnActionControlle
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Class<MainActivity> clazz = MainActivity.class;
+
         final FragmentManager fragmentManager = getSupportFragmentManager();
         findViewById(R.id.addFragment).setOnClickListener(new View.OnClickListener() {
             @Override

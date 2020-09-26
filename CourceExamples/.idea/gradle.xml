@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/async" />
+            <option value="$PROJECT_DIR$/asynchw" />
             <option value="$PROJECT_DIR$/broadcastreciverexample" />
             <option value="$PROJECT_DIR$/fragmentexample" />
             <option value="$PROJECT_DIR$/gittestmodule" />
@@ -20,6 +21,7 @@
             <option value="$PROJECT_DIR$/kotlinexample" />
             <option value="$PROJECT_DIR$/layoutexample" />
             <option value="$PROJECT_DIR$/mistakes" />
+            <option value="$PROJECT_DIR$/mvpnewsexample" />
             <option value="$PROJECT_DIR$/newtworkexample" />
             <option value="$PROJECT_DIR$/recyclerview" />
             <option value="$PROJECT_DIR$/serviceexample" />

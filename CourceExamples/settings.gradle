@@ -1,3 +1,5 @@
+include ':mvpnewsexample'
+include ':asynchw'
 include ':newtworkexample'
 include ':fragmentexample'
 include ':serviceexample'
