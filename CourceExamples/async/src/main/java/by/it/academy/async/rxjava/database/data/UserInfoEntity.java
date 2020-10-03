@@ -13,7 +13,7 @@ public class UserInfoEntity {
 
     private String name;
     private String address;
-    private Date registrationDate;
+//    private Date registrationDate;
 
     public long getId() {
         return id;
@@ -39,11 +39,11 @@ public class UserInfoEntity {
         this.address = address;
     }
 
-    public Date getRegistrationDate() {
-        return registrationDate;
-    }
-
-    public void setRegistrationDate(Date registrationDate) {
-        this.registrationDate = registrationDate;
-    }
+//    public Date getRegistrationDate() {
+//        return registrationDate;
+//    }
+//
+//    public void setRegistrationDate(Date registrationDate) {
+//        this.registrationDate = registrationDate;
+//    }
 }
