@@ -1,3 +1,6 @@
+include ':contentresolver'
+include ':contentprovider'
+include ':solid'
 include ':libeample'
 include ':mvvmexample'
 include ':mvpnewsexample'

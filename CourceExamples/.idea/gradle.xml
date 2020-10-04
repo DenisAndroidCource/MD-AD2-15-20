@@ -15,6 +15,8 @@
             <option value="$PROJECT_DIR$/async" />
             <option value="$PROJECT_DIR$/asynchw" />
             <option value="$PROJECT_DIR$/broadcastreciverexample" />
+            <option value="$PROJECT_DIR$/contentprovider" />
+            <option value="$PROJECT_DIR$/contentresolver" />
             <option value="$PROJECT_DIR$/fragmentexample" />
             <option value="$PROJECT_DIR$/gittestmodule" />
             <option value="$PROJECT_DIR$/kotlinappexample" />
@@ -27,6 +29,7 @@
             <option value="$PROJECT_DIR$/newtworkexample" />
             <option value="$PROJECT_DIR$/recyclerview" />
             <option value="$PROJECT_DIR$/serviceexample" />
+            <option value="$PROJECT_DIR$/solid" />
             <option value="$PROJECT_DIR$/storage" />
             <option value="$PROJECT_DIR$/toolbar" />
           </set>

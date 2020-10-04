@@ -1,0 +1,7 @@
+SOLID
+
+S - Single responsibility
+O - Open-Close principle
+L - Liskov Substitution Principle
+I - Interface Segregation
+D - Dependency Inversion
