@@ -1,3 +1,4 @@
+include ':newscleanacrchitecture'
 include ':contentresolver'
 include ':contentprovider'
 include ':solid'
