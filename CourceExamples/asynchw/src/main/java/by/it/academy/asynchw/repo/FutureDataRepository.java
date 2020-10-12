@@ -44,4 +44,9 @@ public class FutureDataRepository implements DataRepository {
     public void getContact(String id, RepositoryListener<Contact> listener) {
 
     }
+
+    @Override
+    public void close() {
+
+    }
 }
