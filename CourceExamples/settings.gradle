@@ -1,4 +1,3 @@
-include ':dependencyinjection'
 include ':notifications'
 include ':newscleanacrchitecture'
 include ':contentresolver'

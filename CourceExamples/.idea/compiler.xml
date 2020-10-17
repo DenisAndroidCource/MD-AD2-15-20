@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="libeample" target="1.7" />
+      <module name="MD-AD2-15-20.app" target="1.8" />
+      <module name="MD-AD2-15-20.async" target="1.8" />
+      <module name="MD-AD2-15-20.asynchw" target="1.8" />
+      <module name="MD-AD2-15-20.broadcastreciverexample" target="1.8" />
+      <module name="MD-AD2-15-20.contentprovider" target="1.8" />
+      <module name="MD-AD2-15-20.contentresolver" target="1.8" />
+      <module name="MD-AD2-15-20.fragmentexample" target="1.8" />
+      <module name="MD-AD2-15-20.gittestmodule" target="1.8" />
+      <module name="MD-AD2-15-20.kotlinappexample" target="1.8" />
+      <module name="MD-AD2-15-20.kotlinexample" target="1.8" />
+      <module name="MD-AD2-15-20.layoutexample" target="1.8" />
+      <module name="MD-AD2-15-20.mistakes" target="1.8" />
+      <module name="MD-AD2-15-20.mvpnewsexample" target="1.8" />
+      <module name="MD-AD2-15-20.mvvmexample" target="1.8" />
+      <module name="MD-AD2-15-20.newscleanacrchitecture" target="1.8" />
+      <module name="MD-AD2-15-20.newtworkexample" target="1.8" />
+      <module name="MD-AD2-15-20.notifications" target="1.8" />
+      <module name="MD-AD2-15-20.recyclerview" target="1.8" />
+      <module name="MD-AD2-15-20.serviceexample" target="1.8" />
+      <module name="MD-AD2-15-20.solid" target="1.8" />
+      <module name="MD-AD2-15-20.storage" target="1.8" />
+      <module name="MD-AD2-15-20.toolbar" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
